@@ -1,0 +1,22 @@
+[
+  {
+    "name": "get_weather",
+    "description": "Get current weather for a city.",
+    "parameters": {
+      "city": {
+        "type": "str",
+        "description": "Name of the city"
+      }
+    }
+  },
+  {
+    "name": "web_search",
+    "description": "Search the web for information.",
+    "parameters": {
+      "query": {
+        "type": "str",
+        "description": "Search query"
+      }
+    }
+  }
+]
